@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <TItle>CALCULATOR</TItle>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+      <div class="calcy">
+             <div id="main">
+                <div id="top">0</div>
+                <div id="main1">
+                <div id="frame1">
+                <div id="num7" onclick="get_input('7')">7</div>
+                <div id="num8" onclick="get_input('8')">8</div>
+                <div id="num9" onclick="get_input('9')">9</div>
+                <div id="division" onclick="get_input('%')">%</div>
+            </div>
+            <div id="frame2">
+                <div id="num4" onclick="get_input('4')">4</div>
+                <div id="num5" onclick="get_input('5')">5</div>
+                <div id="num6" onclick="get_input('6')">6</div>
+                <div id="multi" onclick="get_input('*')">*</div>
+            </div>
+            <div id="frame3">
+                <div id="num1" onclick="get_input('1')">1</div>
+                <div id="num2" onclick="get_input('2')">2</div>
+                <div id="num3" onclick="get_input('3')">3</div>
+                <div id="sub" onclick="get_input('-')">-</div>
+            </div>
+            <div id="frame4">
+                <div id="arow" onclick="get_input('back')">back</div>
+                <div id="num0" onclick="get_input('0')">0</div>
+                <div id="dot" onclick="get_input('.')">.</div>
+                <div id="add" onclick="get_input('+')">+</div>
+            </div>
+            <div id="frame5">
+                <div id="ce" onclick="clr()">CE</div>
+                <div id="equal" onclick="submit()">=</div>
+            </div>
+      </div>
+        <script src="app.js"></script>
+    </body>
+</html>

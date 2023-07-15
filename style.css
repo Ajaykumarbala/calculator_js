@@ -1,0 +1,299 @@
+*{
+    background-color: mintcream;
+}
+.calcy{
+    border: 1px solid black;
+    height: 330px;
+    width: 350px;
+    display: flex;
+    height: 96vh;
+    width: 205vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+#main{
+    border: 1px solid black(160, 77, 77);
+    height: 430px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+   
+
+}
+#top{
+    border: 2px solid black;
+    height: 45px;
+    width: 330px;
+    background-color: grey;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 50px;
+    
+
+}
+#main1{
+    border: 2px solid black;
+    height: 360px;
+    
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+#frame1{
+    
+    height: 45px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+#num7{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+   
+}
+#num8{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#num9{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#division{
+    border: 2px solid;
+    height: 38px;
+    width: 50px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#frame2{
+    
+    height: 45px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+#num4{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#num5{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#num6{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#multi{
+    border: 2px solid;
+    height: 38px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#frame3{
+    
+    height: 45px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;  
+}
+#num1{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#num2{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: gray;
+
+    
+}
+#num3{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#sub{
+    border: 2px solid;
+    height: 38px;
+    width: 50px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#frame4{
+    
+    height: 45px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    
+}
+#arow{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#num0{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#dot{
+    border: 2px solid;
+    height: 38px;
+    width: 40px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+#add{
+    border: 2px solid;
+    height: 38px;
+    width: 50px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: gray;
+}
+#frame5{
+    
+    height: 45px;
+    width: 300px;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+#ce{
+    border: 2px solid;
+    height: 38px;
+    width: 125px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+#equal{
+    border: 2px solid;
+    height: 38px;
+    width: 125px;
+   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: green;
+    
+}
